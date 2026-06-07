@@ -9,6 +9,9 @@ from urllib.parse import urlparse, parse_qs
 from importlib.machinery import SourceFileLoader
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, project_root)
+
 cache = {}
 class ProxyServer(BaseHTTPRequestHandler):
     def do_GET(self):
