@@ -21,7 +21,7 @@ Pyramid 是一个基于 **Python 爬虫 + Web 服务** 的数据源框架，
   https://github.com/UndCover/Pyramid
 
 - **影视版 Pyramid（App 端集成示例）**  
-  https://github.com/FongMi/TV/tree/release/chaquo
+  https://github.com/FongMi/TV/tree/fongmi/chaquo
 
 ---
 
